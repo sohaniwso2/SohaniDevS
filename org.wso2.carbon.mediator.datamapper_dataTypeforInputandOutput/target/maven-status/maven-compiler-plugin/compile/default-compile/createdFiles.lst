@@ -1,0 +1,7 @@
+org/wso2/carbon/mediator/datamapper/config/xml/Messages.class
+org/wso2/carbon/mediator/datamapper/config/xml/ConfigurationProperties.class
+org/wso2/carbon/mediator/datamapper/config/xml/DataMapperMediatorFactory.class
+org/wso2/carbon/mediator/datamapper/DataMapperHelper.class
+org/wso2/carbon/mediator/datamapper/config/xml/DataMapperMediatorSerializer.class
+org/wso2/carbon/mediator/datamapper/DataMapperMediator.class
+org/wso2/carbon/mediator/datamapper/Messages.class

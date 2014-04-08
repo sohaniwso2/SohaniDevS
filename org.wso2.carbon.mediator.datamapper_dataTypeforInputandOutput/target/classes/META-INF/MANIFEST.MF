@@ -1,0 +1,29 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1396978306529
+Build-Jdk: 1.7.0_17
+Built-By: sohani
+Bundle-Description: WSO2 Carbon - DataMapper Mediator
+Bundle-ManifestVersion: 2
+Bundle-Name: org.wso2.carbon.mediator.datamapper
+Bundle-SymbolicName: org.wso2.carbon.mediator.datamapper
+Bundle-Vendor: WSO2 Inc
+Bundle-Version: 4.2.1
+Created-By: Apache Maven Bundle Plugin
+DynamicImport-Package: *
+Export-Package: org.wso2.carbon.mediator.datamapper;uses:="org.apache.sy
+ napse,org.apache.synapse.core,org.apache.synapse.mediators";version="4.
+ 2.1",org.wso2.carbon.mediator.datamapper.config.xml;uses:="javax.xml.na
+ mespace,org.apache.axiom.om,org.apache.synapse,org.apache.synapse.confi
+ g.xml";version="4.2.1"
+Fragment-Host: synapse-core
+Import-Package: org.apache.commons.logging;version="1.0.4",org.apache.av
+ ro;resolution:=optional,org.apache.avro.generic;resolution:=optional,or
+ g.apache.avro.io;resolution:=optional,org.apache.axiom.om;resolution:=o
+ ptional,org.apache.axiom.om.impl.llom;resolution:=optional,org.apache.a
+ xiom.soap;resolution:=optional,org.apache.synapse;resolution:=optional,
+ org.apache.synapse.config.xml;resolution:=optional,org.apache.synapse.c
+ ore;resolution:=optional,org.apache.synapse.mediators;resolution:=optio
+ nal,org.wso2.datamapper.engine.core;resolution:=optional,org.wso2.datam
+ apper.engine.core.writer;resolution:=optional,javax.xml.namespace;versi
+ on="0.0.0",org.osgi.framework
+Tool: Bnd-2.1.0.20130426-122213
