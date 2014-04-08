@@ -27,24 +27,24 @@ public class DataMapperMediator extends AbstractMediator implements ManagedLifec
 		return configurationKey;
 	}
 
-	public void setConfigurationKey(Value xsltKey) {
-		this.configurationKey = xsltKey;
+	public void setConfigurationKey(Value dataMapperKey) {
+		this.configurationKey = dataMapperKey;
 	}
 
 	public Value getInputSchemaKey() {
 		return inputSchemaKey;
 	}
 
-	public void setInputSchemaKey(Value xsltKey) {
-		this.inputSchemaKey = xsltKey;
+	public void setInputSchemaKey(Value dataMapperKey) {
+		this.inputSchemaKey = dataMapperKey;
 	}
 
 	public Value getOutputSchemaKey() {
 		return outputSchemaKey;
 	}
 
-	public void setOutputSchemaKey(Value xsltKey) {
-		this.outputSchemaKey = xsltKey;
+	public void setOutputSchemaKey(Value dataMapperKey) {
+		this.outputSchemaKey = dataMapperKey;
 	}
 
 	@Override
