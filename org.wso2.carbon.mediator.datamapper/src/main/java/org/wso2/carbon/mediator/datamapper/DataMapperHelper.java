@@ -41,8 +41,6 @@ public class DataMapperHelper {
 		InputStream outputSchemaStream = getInputStream(context, outSchemaKey);
 
 		OMElement inputMessage = context.getEnvelope();
-		// InputStream inStream = new
-		// ByteArrayInputStream(inputMessage.toString().getBytes());
 
 		try {
 
@@ -77,7 +75,6 @@ public class DataMapperHelper {
 					}
 				}
 			}
-			// inStream.close();
 
 		} catch (Exception e) {
 			e.printStackTrace();
